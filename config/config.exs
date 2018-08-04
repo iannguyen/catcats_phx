@@ -23,7 +23,7 @@ config :logger, :console,
   metadata: [:user_id]
 
 # ueberauth
-config :ueberauth, UeberAuth,
+config :ueberauth, Ueberauth,
   providers: [
     google: {Ueberauth.Strategy.Google, [default_scope: "emails profile plus.me"]}
   ]
