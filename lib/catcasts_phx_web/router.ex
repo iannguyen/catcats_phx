@@ -22,7 +22,7 @@ defmodule CatcastsPhxWeb.Router do
   scope "/auth", CatcastsPhxWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/:provider", AuthControllerTest, :requet
+    get "/:provider", AuthController, :requet
   end
 
   # Other scopes may use custom stacks.
