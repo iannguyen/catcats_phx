@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :catcasts_phx, CatcastsPhx.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "iannguyen",
+  password: "",
   database: "catcasts_phx_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox

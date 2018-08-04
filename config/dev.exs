@@ -51,8 +51,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :catcasts_phx, CatcastsPhx.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "iannguyen",
+  password: "",
   database: "catcasts_phx_dev",
   hostname: "localhost",
   pool_size: 10
