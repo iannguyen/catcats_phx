@@ -19,6 +19,12 @@ defmodule CatcastsPhxWeb.Router do
     get "/", PageController, :index
   end
 
+  scope "/auth", CatcastsPhxWeb do
+    pipe_through :browser # Use the default browser stack
+
+    get "/:provider", AuthControllerTest, :requet
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", CatcastsPhxWeb do
   #   pipe_through :api
