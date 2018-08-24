@@ -1,6 +1,8 @@
-build
-node_modules
-.git
+*.cache
 *.log
 *.tmp
-*.cache
+.git
+_build
+build
+deps
+node_modules
