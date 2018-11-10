@@ -19,6 +19,7 @@ config :catcasts_phx, CatcastsPhxWeb.Endpoint,
       "--watch-stdin",
       cd: Path.expand("../assets", __DIR__)
     ]
+  ]
 
 # ## SSL Support
 #
