@@ -1,5 +1,7 @@
 defmodule CatcastsPhx.Repo do
-  use Ecto.Repo, otp_app: :catcasts_phx
+  use Ecto.Repo,
+    otp_app: :catcasts_phx,
+    adapter: Ecto.Adapters.Postgres
 
   @doc """
   Dynamically loads the repository url from the
