@@ -5,7 +5,8 @@ defmodule CatcastsPhxWeb.UserSocket do
   # channel "room:*", CatcastsPhxWeb.RoomChannel
 
   ## Transports
-  transport :websocket, Phoenix.Transports.WebSocket
+  # deprecated in Phoenix 1.4
+  # transport :websocket, Phoenix.Transports.WebSocket
   # transport :longpoll, Phoenix.Transports.LongPoll
 
   # Socket params are passed from the client and can

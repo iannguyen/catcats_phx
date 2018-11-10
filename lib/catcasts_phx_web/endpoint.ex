@@ -1,7 +1,9 @@
 defmodule CatcastsPhxWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :catcasts_phx
 
-  socket "/socket", CatcastsPhxWeb.UserSocket
+  socket "/socket", CatcastsPhxWeb.UserSocket,
+    websocket: true, # or list of options
+    longpoll: [check_origin: ...]
 
   # Serve at "/" the static files from "priv/static" directory.
   #
