@@ -25,5 +25,5 @@ import css from "../css/app.scss"
 // import socket from "./socket"
 
 window.setTimeout(function() {
-    $(".flash-alert").slideUp()
+  $(".flash-alert").slideUp()
 }, 3000);
