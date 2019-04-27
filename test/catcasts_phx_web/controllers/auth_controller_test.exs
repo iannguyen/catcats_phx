@@ -10,12 +10,12 @@ defmodule CatcastsPhxWeb.AuthControllerTest do
 
   @ueberauth %{
     credentials: %{
-      token: 'asdfasdfasdfasdf',
+      token: "asdfasdfasdfasdf",
     },
     info: %{
-      email: 'pusheen@pmd.com',
-      first_name: 'Pusheen',
-      last_name: 'The Cat',
+      email: "pusheen@pmd.com",
+      first_name: "Pusheen",
+      last_name: "The Cat",
       provider: :google
     }
   }
