@@ -1,0 +1,8 @@
+*.cache
+*.log
+*.tmp
+.git
+_build
+build
+deps
+node_modules

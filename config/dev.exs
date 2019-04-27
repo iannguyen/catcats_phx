@@ -57,8 +57,8 @@ config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
 config :catcasts_phx, CatcastsPhx.Repo,
-  username: "iannguyen",
-  password: "",
+  username: "postgres",
+  password: "postgres",
   database: "catcasts_phx_dev",
   hostname: "localhost",
   pool_size: 10

@@ -44,6 +44,8 @@ defmodule CatcastsPhx.Mixfile do
       {:plug, "~> 1.7"},
       {:plug_cowboy, "~> 2.0"},
       {:postgrex, ">= 0.0.0"},
+      {:ueberauth, "~> 0.4"},
+      {:ueberauth_google, "~> 0.5"}
     ]
   end
 
